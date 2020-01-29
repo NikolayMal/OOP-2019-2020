@@ -10,9 +10,12 @@ public class Main
 
         misty.setName("Misty");
         System.out.println(misty.getName());  
-        misty.speak();  
+        misty.speak();
 
-        Cat topcat = new Cat();
-        topcat.speak();
+        do {
+            Cat topcat = new Cat();
+            topcat.speak();
+        }
+
     }
 }
