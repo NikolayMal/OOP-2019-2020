@@ -12,9 +12,9 @@ public class Main
         System.out.println(misty.getName());  
         misty.speak();
 
+        Cat topcat = new Cat();
         do {
-            Cat topcat = new Cat();
-            topcat.speak();
+            topcat.killed();
         }
 
     }
